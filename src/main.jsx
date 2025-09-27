@@ -4,11 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import Greeting from './Greeting.jsx'
 import { Something } from './Something.jsx'
+import TimeTracker from './TimeTracker.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App/>
     <Greeting />
     <Something />
+    <TimeTracker/>
   </StrictMode>,
 )
